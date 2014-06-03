@@ -1,0 +1,8 @@
+*.class
+*.pyc
+*.pyo
+.deployables
+*.class
+*.pyc
+*.pyo
+.deployables
