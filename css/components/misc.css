@@ -122,14 +122,16 @@
 
 /* The secondary menu (login, etc.) */
 .header__secondary-menu {
-  float: right; /* LTR */
+  display:none /* LTR */
 }
 
 /* Wrapper for any blocks placed in the header region. */
 .header__region {
   /* Clear the logo. */
-  clear: both;
+  clear: none;
 }
+
+
 
 /**
  * Navigation bar.
@@ -172,6 +174,20 @@
   padding: 0;
 }
 
+/**
+ * 	Navigation secondaire
+ */
+#block-menu-menu-navigation2 ul{padding-left:0}
+#block-menu-menu-navigation2 li.menu__item.is-leaf{list-style: none}
+
+/**
+ * 	Language menu
+ */
+
+#block-locale-language{width:auto;float:right;,margin-left:1em}
+#block-locale-language h2{display:none;margin:0;padding:0}
+#block-locale-language ul{list-style:none;padding:0;margin:0}
+#block-locale-language ul li{ display: inline-block}
 /**
  * Titles.
  */
@@ -446,26 +462,27 @@ span.field-label {
  * Menus.
  */
 .menu__item.is-leaf {
-  list-style-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHBAMAAAA2fErgAAAAD1BMVEX///+/v7+Li4sAAADAwMBFvsw8AAAAAXRSTlMAQObYZgAAAB1JREFUCFtjYAADYwMGBmYVZSDhKAwkFJWhYiAAAB2+Aa/9ugeaAAAAAElFTkSuQmCC');
-  *list-style-image: url('../../images/menu-leaf.png');
-  list-style-type: square;
-}
-.menu__item.is-expanded {
-  list-style-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHAQMAAAD+nMWQAAAABlBMVEX///8AAABVwtN+AAAAAXRSTlMAQObYZgAAABJJREFUeJxj+MdQw2DBIMAABgAUsAHD3c3BpwAAAABJRU5ErkJggg==');
-  *list-style-image: url('../../images/menu-expanded.png');
-  list-style-type: circle;
-}
-.menu__item.is-collapsed {
-  list-style-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHAQMAAAD+nMWQAAAABlBMVEX///8AAABVwtN+AAAAAXRSTlMAQObYZgAAABFJREFUCB1jVmCGQClmEWYOAAZ8AMy3HPLXAAAAAElFTkSuQmCC'); /* LTR */
-  *list-style-image: url('../../images/menu-collapsed.png'); /* LTR */
-  list-style-type: disc;
+  list-style:none;
 }
 
+/**
+ * 	thumbliste
+ */
+
+.views-responsive-grid .views-column{width:7em;float:left}
+.views-responsive-grid .views-column .views-field-title{height:1.9em}
+.views-responsive-grid .views-column:hover .views-field-title{
+	height:auto;
+	position:absolute;
+	width:7em;
+	z-index:100;
+	background:#C0C0C0}
+.views-responsive-grid .views-column:hover .views-field-field-image{position:relative;top:1.9em;}
 /* The active item in a Drupal menu. */
 .menu a.active {
   color: #000;
 }
-
+.menu a,.views-responsive-grid a {text-decoration:none}
 /**
  * Marker.
  */
@@ -756,3 +773,8 @@ tr.selected td {
   background-color: #0072b9;
   background-image: url('../../images/progress.gif');
 }
+
+/**
+ * 	Links
+ */
+a {color:#4d4d4d}
