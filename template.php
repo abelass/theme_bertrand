@@ -52,11 +52,17 @@ function bertrand_preprocess_html(&$variables, $hook) {
  * @param $hook
  *   The name of the template being rendered ("page" in this case.)
  */
-/* -- Delete this line if you want to use this function
+
 function bertrand_preprocess_page(&$variables, $hook) {
-  $variables['sample_variable'] = t('Lorem ipsum.');
+ 
+    /*$view = &$variables['view'];
+    echo $view->name ;
+    if($view->name == 'gallery_normal') {*/
+   // add needed javascript
+    drupal_add_js(drupal_get_path('theme', 'bertrand') . '/js/script.js');
+	//}
 }
-// */
+
 
 /**
  * Override or insert variables into the node templates.
