@@ -50,6 +50,7 @@
   clip: rect(1px, 1px, 1px, 1px);
 }
 
+.hidden{display:none}
 /* Turns off the element-invisible effect. */
 .element-focusable:active,
 .element-focusable:focus {
@@ -469,8 +470,9 @@ span.field-label {
 }
 
 /**
- * 	thumbliste
+ * 	Gallery/thumbliste
  */
+
 
 .views-responsive-grid .views-column, .views-responsive-grid .views-column li{float:left} 
 .view-thumbs-travaux .views-column{width:7em;}
@@ -483,9 +485,9 @@ span.field-label {
 	background:#C0C0C0}
 .views-responsive-grid .views-column:hover .views-field-field-image{position:relative;top:1.9em;}
 .views-responsive-grid .views-column ul {overflow:none;padding:0;margin:0}
-.view-gallerydemo11 .views-column li{width:auto;margin:0 0.5em;list-style:none} 
-.view-gallerydemo11 .views-column li.first{margin-left:0;} 
-.view-gallerydemo11 .views-column li.last{margin-right:0;} 
+.views-responsive-grid .views-column li{width:auto;margin:0 0.5em;list-style:none} 
+.views-responsive-grid .views-column li.first{margin-left:0;} 
+.views-responsive-grid .views-column li.last{margin-right:0;} 
 /* The active item in a Drupal menu. */
 .menu a.active {
   color: #000;
