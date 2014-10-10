@@ -477,17 +477,16 @@ span.field-label {
 .views-responsive-grid .views-column, .views-responsive-grid .views-column li{float:left} 
 .view-thumbs-travaux .views-column{width:7em;}
 .views-responsive-grid .views-column .views-field-title{height:1.9em}
-.views-responsive-grid .views-column:hover .views-field-title{
-	height:auto;
-	position:absolute;
-	width:7em;
-	z-index:100;
-	background:#C0C0C0}
-.views-responsive-grid .views-column:hover .views-field-field-image{position:relative;top:1.9em;}
 .views-responsive-grid .views-column ul {overflow:none;padding:0;margin:0}
 .views-responsive-grid .views-column li{width:auto;margin:0 0.5em;list-style:none} 
 .views-responsive-grid .views-column li.first{margin-left:0;} 
 .views-responsive-grid .views-column li.last{margin-right:0;} 
+.view-gallery-normal{width:100%}
+.views-field-field-image{float:left;width:35%} 
+.views-field-field-image-1{float:right;width:auto; max-width:60%}
+
+
+
 /* The active item in a Drupal menu. */
 .menu a.active {
   color: #000;
