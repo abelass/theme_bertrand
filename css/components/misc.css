@@ -474,7 +474,7 @@ span.field-label {
  */
 
 
-.views-responsive-grid .views-column, .views-responsive-grid .views-column li{float:left} 
+.views-responsive-grid .views-column, .views-responsive-grid .views-column li{float:left;width:100%} 
 .view-thumbs-travaux .views-column{width:7em;}
 .views-responsive-grid .views-column .views-field-title{height:1.9em}
 .views-responsive-grid .views-column ul {overflow:none;padding:0;margin:0}
@@ -483,8 +483,8 @@ span.field-label {
 .views-responsive-grid .views-column li.last{margin-right:0;} 
 .view-gallery-normal{width:100%}
 .views-field-field-image{float:left;width:35%} 
-.views-field-field-image-1{float:right;width:auto; max-width:60%}
-
+.views-field-field-image-1{float:right;width:60%}
+.views-field-field-image-1 ul{text-align:right}
 
 
 /* The active item in a Drupal menu. */
