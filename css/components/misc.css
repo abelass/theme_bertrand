@@ -101,7 +101,7 @@
 /* The name of the website. */
 .header__site-name {
   margin: 0;
-  font-size: 2em;
+  font-size: 3em;
   line-height: 1.5em;
 }
 
@@ -193,6 +193,9 @@
 /**
  * Titles.
  */
+
+
+
 .page__title,          /* The title of the page. */
 .node__title,          /* Title of a piece of content when it is given in a list of content. */
 .block__title,         /* Block title. */
@@ -200,6 +203,7 @@
 .comments__form-title, /* Comment form heading. */
 .comment__title {      /* Comment title. */
   margin: 0;
+  font-size:1.5em
 }
 
 /**
