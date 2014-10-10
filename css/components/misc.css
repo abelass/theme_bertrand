@@ -483,9 +483,9 @@ span.field-label {
 .views-responsive-grid .views-column li.last{margin-right:0;} 
 .view-gallery-normal{width:100%}
 .view-gallery-normal .views-field-field-image{float:left;width:35%} 
-.view-gallery-normal .views-field-field-image-1{float:right;width:60%}
+.view-gallery-normal .views-field-field-image-1{float:right;width:53%}
 .view-gallery-normal .views-field-field-image-1 ul{text-align:right}
-
+.views-responsive-grid .views-column .views-field-field-image-1  li{width:100%;} 
 
 /* The active item in a Drupal menu. */
 .menu a.active {
