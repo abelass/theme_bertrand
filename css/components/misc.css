@@ -489,6 +489,7 @@ span.field-label {
 .view-gallery-normal .views-field-field-image{float:left;width:35%} 
 .view-gallery-normal .views-field-field-image-1{float:right;width:53%}
 .view-gallery-normal .views-field-field-image-1 ul{text-align:right}
+.view-gallery-normal .views-field-body{float:left}
 .views-responsive-grid .views-column .views-field-field-image-1  li{width:100%;} 
 
 /* The active item in a Drupal menu. */
