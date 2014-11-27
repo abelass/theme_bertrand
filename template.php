@@ -136,3 +136,14 @@ function bertrand_preprocess_block(&$variables, $hook) {
   //}
 }
 // */
+
+// Modifies the appearence of the language menu
+function bertrand_links__locale_block(&$vars) {
+  foreach($vars['links'] as $language => $langInfo) {
+    $abbr = $langInfo['language']->language;
+    $name = $langInfo['language']->native;
+    $vars['links'][$language]['title'] = '<abbr title="' . $name . '">' . $abbr . '</abbr>';
+    $vars['links'][$language]['html'] = TRUE;
+  }
+  $content = theme_links($vars);
+  return $content;
