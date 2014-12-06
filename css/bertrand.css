@@ -33,7 +33,7 @@ a {color:#4d4d4d}
 	}
 .views-responsive-grid .views-column ul {overflow:none;padding:0;margin:0}
 .views-responsive-grid .views-column li{width:auto;margin:0 0.5em;list-style:none} 
-.views-responsive-grid .views-column li.first{margin-left:0;} 
+.views-responsive-grid .views-column li.first{margin-left:0.5;} 
 .views-responsive-grid .views-column li.last{margin-right:0;} 
 .view-gallery-normal{width:100%}
 .view-gallery-normal .views-field-field-image{float:left;width:35%} 
@@ -41,3 +41,5 @@ a {color:#4d4d4d}
 .view-gallery-normal .views-field-field-image-1 ul{text-align:right}
 .view-gallery-normal .views-field-body{float:left;clear:left;width:35%}
 .views-responsive-grid .views-column .views-field-field-image-1  li{width:100%;} 
+.views-responsive-grid  .legende .title {font-size:0.8em; line-height:normal}
+.views-responsive-grid  .legende .title div:first-child{font-size:1.2em;font-weight:bold}
