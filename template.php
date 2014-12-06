@@ -148,3 +148,15 @@ function bertrand_links__locale_block(&$vars) {
   $content = theme_links($vars);
   return $content;
 }
+
+function bertrand_node_view($node, $view_mode, $langcode)
+{
+  if($node->type == 'travail')
+  {
+    $node->content['#attached']['js'][] = array
+    (
+      'type' => 'file',
+      'data' => drupal_get_path('theme', 'bertrand') . '/js/travail.js',
+    );
+  }
+}

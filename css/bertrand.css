@@ -1,0 +1,43 @@
+/**
+ * 	Links
+ */
+a {color:#4d4d4d}
+
+
+/**
+ * Blocks.
+ */
+
+
+
+.node-type-travail .field-name-body{clear:both}
+
+
+/**
+ * 	Gallery/thumbliste
+ */
+
+
+.views-responsive-grid .views-column, .views-responsive-grid .views-column li{float:left;width:100%} 
+.view-thumbs-travaux .views-column{
+	margin: 0.5em;
+    padding-top: 1.8em;
+    position: relative;
+    width: 20%;
+	}
+.views-responsive-grid .views-column .views-field-title{
+    left: 0;
+    position: absolute;
+    top: 0;
+	background-color: rgba(255, 255, 255, 0.5);
+	}
+.views-responsive-grid .views-column ul {overflow:none;padding:0;margin:0}
+.views-responsive-grid .views-column li{width:auto;margin:0 0.5em;list-style:none} 
+.views-responsive-grid .views-column li.first{margin-left:0;} 
+.views-responsive-grid .views-column li.last{margin-right:0;} 
+.view-gallery-normal{width:100%}
+.view-gallery-normal .views-field-field-image{float:left;width:35%} 
+.view-gallery-normal .views-field-field-image-1{float:right;width:53%}
+.view-gallery-normal .views-field-field-image-1 ul{text-align:right}
+.view-gallery-normal .views-field-body{float:left;clear:left;width:35%}
+.views-responsive-grid .views-column .views-field-field-image-1  li{width:100%;} 
