@@ -147,3 +147,4 @@ function bertrand_links__locale_block(&$vars) {
   }
   $content = theme_links($vars);
   return $content;
+}
