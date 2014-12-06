@@ -55,12 +55,11 @@ function bertrand_preprocess_html(&$variables, $hook) {
 
 function bertrand_preprocess_page(&$variables, $hook) {
  
-    /*$view = &$variables['view'];
-    echo $view->name ;
-    if($view->name == 'gallery_normal') {*/
-   // add needed javascript
-    drupal_add_js(drupal_get_path('theme', 'bertrand') . '/js/script.js');
-	//}
+ if (isset($variables['node']) && $variables['node']->type == 'travail') {
+	 // Add js
+	 drupal_add_js(drupal_get_path('theme', 'bertrand') . '/js/travail.js');
+	 $variables['scripts'] = drupal_get_js();
+	 }
 }
 
 
@@ -149,14 +148,3 @@ function bertrand_links__locale_block(&$vars) {
   return $content;
 }
 
-function bertrand_node_view($node, $view_mode, $langcode)
-{
-  if($node->type == 'travail')
-  {
-    $node->content['#attached']['js'][] = array
-    (
-      'type' => 'file',
-      'data' => drupal_get_path('theme', 'bertrand') . '/js/travail.js',
-    );
-  }
-}

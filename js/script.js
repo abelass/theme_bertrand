@@ -30,26 +30,12 @@
 
 // To understand behaviors, see https://drupal.org/node/756722#behaviors
 
-Drupal.behaviors.my_custom_behavior = {
+Drupal.behaviors.scripts = {
 
   attach: function(context, settings) {
 
-    $('a.gallery').click(function(){
-
-    	var id=$(this).attr('data-id');
-
-    	$('.hidden').hide(800);
-
-    	$('#image'+id).show(800);
-
-    
-
-    });
-
-  
 
   }
-
 };
 
 
