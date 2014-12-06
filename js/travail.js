@@ -41,7 +41,7 @@ Drupal.behaviors.travail = {
     	var id=$(this).attr('data-id');
     	$('.hidden').hide(600);
     	$('#image'+id).show(800);
-    	$('.views-field-body').hide(800);
+    	$('.views-field-body').hide(0);
     	$('.views-field-nothing').css('visibility','visible');
     	
 	    });
