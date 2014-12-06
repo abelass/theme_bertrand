@@ -39,10 +39,21 @@ Drupal.behaviors.travail = {
 
     $('a.gallery').click(function(){
     	var id=$(this).attr('data-id');
-    	$('.hidden').hide(800);
+    	$('.hidden').hide(600);
     	$('#image'+id).show(800);
+    	$('.views-field-body').hide(800);
+    	$('.views-field-nothing').css('visibility','visible');
     	
-    });
-  }
+	    });
+
+	  
+    $('.more').click(function(){
+    	var id=$(this).attr('data-id');
+    	$('.views-field-body').show(800);
+    	$('.views-field-nothing').css('visibility','hidden');
+    	
+	    });
+	  }
+	
 };
 })(jQuery, Drupal, this, this.document);

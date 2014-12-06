@@ -46,3 +46,9 @@ a {color:#4d4d4d}
 .views-responsive-grid .views-column .views-field-field-image-1  li{width:100%;} 
 .views-responsive-grid  .legende .title {font-size:0.8em; line-height:normal}
 .views-responsive-grid  .legende .title div:first-child{font-size:1.2em;font-weight:bold}
+.views-field-nothing {
+	float:left;
+	clear:left;
+	visibility:hidden;
+	width:35%;
+	cursor: pointer}
