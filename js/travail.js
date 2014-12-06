@@ -49,7 +49,7 @@ Drupal.behaviors.travail = {
 	  
     $('.more').click(function(){
     	var id=$(this).attr('data-id');
-    	$('.views-field-body').show(800);
+    	$('.views-field-body').show(500);
     	$('.views-field-nothing').css('visibility','hidden');
     	
 	    });
