@@ -29,12 +29,19 @@
 Drupal.behaviors.travail = {
 
   attach: function(context, settings) {
+  	//remplacer les virgules par des div
+  	 $('.item-list .legende .title').each(function () {
+  	 		var text = $(this).html();
+  	 		text=text.replace(/\,/g,'</div><div>');
+  	 		$(this).html('<div>'+text+'</div>');
+       });
+
 
     $('a.gallery').click(function(){
-
     	var id=$(this).attr('data-id');
     	$('.hidden').hide(800);
     	$('#image'+id).show(800);
+    	
     });
   }
 };
