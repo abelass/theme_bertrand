@@ -39,10 +39,11 @@ Drupal.behaviors.travail = {
 
     $('a.gallery').click(function(){
     	var id=$(this).attr('data-id');
+		$('.views-field-nothing').hide(0);
     	$('.hidden').hide(600);
     	$('#image'+id).show(800);
     	$('.views-field-body').hide(0);
-    	$('.views-field-nothing').css('visibility','visible');
+    	$('.views-field-nothing').show(1500);
     	
 	    });
 
@@ -50,7 +51,10 @@ Drupal.behaviors.travail = {
     $('.more').click(function(){
     	var id=$(this).attr('data-id');
     	$('.views-field-body').show(500);
-    	$('.views-field-nothing').css('visibility','hidden');
+    	$('.views-field-nothing').hide(800);
+		$('html, body').animate({
+			scrollTop: $(".views-field-body").offset().top
+		}, 1000);
     	
 	    });
 	  }
