@@ -39,7 +39,6 @@ Drupal.behaviors.travail = {
 
     $('a.gallery').click(function(){
     	var id=$(this).attr('data-id');
-		$('.views-field-nothing').hide(0);
     	$('.hidden').hide(600);
     	$('#image'+id).show(800);
     	$('.views-field-body').hide(0);
