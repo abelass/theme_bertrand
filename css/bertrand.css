@@ -1,3 +1,10 @@
+/*
+* Titres
+*/
+.page__title.title {
+    margin-bottom: 1em;
+}
+
 /**
  * 	Links
  */
