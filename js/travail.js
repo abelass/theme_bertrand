@@ -30,7 +30,7 @@ Drupal.behaviors.travail = {
 
   attach: function(context, settings) {
   	//remplacer les virgules par des div
-  	 $('.item-list .legende .title').each(function () {
+  	 $('.item-list .content .field-item').each(function () {
   	 		var text = $(this).html();
   	 		text=text.replace(/\,/g,'</div><div>');
   	 		$(this).html('<div>'+text+'</div>');
