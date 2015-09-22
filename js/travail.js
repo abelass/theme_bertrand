@@ -38,19 +38,8 @@
         var id = $(this).attr('data-id');
         $('.hidden').hide(600);
         $('#image' + id).show(800);
-        //$('.views-field-body').hide(0);
-        //$('.views-field-nothing').show(1500);
 
-      });
-
-      $('.more').click(function() {
-        var id = $(this).attr('data-id');
-        //$('.views-field-body').show(500);
-        //$('.views-field-nothing').hide(800);
-        /*$('html, body').animate({
-         scrollTop: $(".views-field-body").offset().top
-         }, 1000);*/
-
+        return false;
       });
     }
   };
