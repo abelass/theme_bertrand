@@ -26,8 +26,8 @@ a {color:#4d4d4d}
 .node-type-travail .field-name-body{clear:both}
 
 #block-block-2{
-    font-size:0.8em; 
-    float:right; 
+    font-size:0.8em;
+    float:right;
     margin-top:1.1em;
     clear:right;
 }
@@ -51,86 +51,89 @@ img, #views_slideshow_cycle_div_slider-block_0, #views_slideshow_cycle_teaser_se
 
 
 .views-responsive-grid .views-column, .views-responsive-grid .views-column li{
-	float:left;
-	width:100%;
-	position:relative;
-	} 
+  float:left;
+  width:100%;
+  position:relative;
+}
 .view-thumbs-travaux .views-column{
-	margin: 0.5em;
-    padding-top: 1.8em;
-    position: relative;
-    width: 20%;
+  margin: 0.5em;
+  padding-top: 1.8em;
+  position: relative;
+  width: 20%;
 	}
 .views-responsive-grid .views-column .views-field-title{
-    left: 0;
-    position: absolute;
-    top: 0;
-	background-color: rgba(255, 255, 255, 0.8);
-	}
+  left: 0;
+  position: absolute;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
 .views-responsive-grid .views-column ul {overflow:none;padding:0;margin:0}
-.views-responsive-grid .views-column li{width:auto;margin:0 0.5em;list-style:none} 
+.views-responsive-grid .views-column li{width:auto;margin:0 0.5em;list-style:none}
 .views-responsive-grid .views-column .field-content.zoom li {margin:0}
-.views-responsive-grid .views-column li.first{margin-left:0.5;} 
-.views-responsive-grid .views-column li.last{margin-right:0;} 
+.views-responsive-grid .views-column li.first{margin-left:0.5;}
+.views-responsive-grid .views-column li.last{margin-right:0;}
 .view-gallery-normal{width:100%}
-.view-gallery-normal .views-field-field-image{float:left;width:35%} 
+.view-gallery-normal .views-field-field-image{float:left;width:35%}
 .view-gallery-normal .views-field-field-image-1{
-	float:right;
-	width:53%;
-	margin-bottom:4em}
+  float:right;
+  width:53%;
+  margin-bottom:4em
+}
 .view-gallery-normal .views-field-field-image-1 ul{text-align:right}
 .view-gallery-normal .views-field-body{
-	float:left;
-	clear:both;
-	width:100%}
-.views-responsive-grid .views-column .views-field-field-image-1  li{width:100%;} 
+  float:left;
+  clear:both;
+  width:100%
+}
+.views-responsive-grid .views-column .views-field-field-image-1  li{width:100%;}
 .views-responsive-grid  .field-item  {font-size:0.8em; line-height:normal}
 .views-responsive-grid  .field-item  div:first-child{font-size:1.2em;font-weight:bold}
 .views-field-nothing {
-	display:none;
-	cursor: pointer;
-	float:left;
-	clear:left;
-	width:35%;
-	margin-top:4em;
-	}
-	
+  display:none;
+  cursor: pointer;
+  float:left;
+  clear:left;
+  width:35%;
+  margin-top:4em;
+}
+
 /*Responsive*/
 
 @media all and  (max-width: 959px) {
-	body{font-size:95%}
-	h2,.page__title, .node__title, .block__title, .comments__title, .comments__form-title, .comment__title {
+  body{font-size:95%}
+  h2,.page__title, .node__title, .block__title, .comments__title, .comments__form-title, .comment__title {
     font-size: 1.3em;
     margin: 0;
    }
 
-	.header__site-name {
+  .header__site-name {
     font-size: 2em;
     line-height: 1.5em;
     margin: 0;
-	}
-	.sidebar-second .region-sidebar-second, {
+  }
+  .sidebar-second .region-sidebar-second, {
     width:15%;
   }
-  
+
   .view-thumbs-travaux .views-column{
     line-height: normal;
     margin: 0.5%;
     min-width: 150px;
     padding-top: 3.5%;
     width: 24%;
-  	}	
-  	
-  	.view-gallery-normal .views-field-field-image,.view-gallery-normal .views-field-field-image-1{width:100%;margin-bottom:1em} 
-  	
+    }
+
+    .view-gallery-normal .views-field-field-image,.view-gallery-normal .views-field-field-image-1{width:100%;margin-bottom:1em}
+
 
 }
 
 
 @media all and (max-width: 480px) {
 	body{font-size:80%}
-	
-	
+
+
 	#main {
 	    /* Move all the children of #main down to make room. */
 	    padding-top: 3em;
@@ -140,21 +143,20 @@ img, #views_slideshow_cycle_div_slider-block_0, #views_slideshow_cycle_teaser_se
     width:100%;
     margin-left: 0;
   }
-	  .sidebar-first #content {
-	  	margin-left:0;
-	  	width:100%
-	  	
-	  }
+    .sidebar-first #content {
+    	margin-left:0;
+    	width:100%
 
-	 .view-thumbs-travaux .views-column{
-		padding-top: 5%;
-	   	min-width: 90px;
-	  	}	
+    }
 
-	.views-field-nothing {
-		top: 100%;
-		left: 0;
-		bottom: 0;
-		}
+   .view-thumbs-travaux .views-column{
+  	padding-top: 5%;
+     	min-width: 90px;
+    	}
 
+  .views-field-nothing {
+    top: 100%;
+    left: 0;
+    bottom: 0;
+  }
 }
