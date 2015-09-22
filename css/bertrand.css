@@ -89,7 +89,9 @@ img, #views_slideshow_cycle_div_slider-block_0, #views_slideshow_cycle_teaser_se
 .view-gallery-normal .views-field-body{
   float:left;
   clear:both;
-  width:100%
+  width:100%;
+  color:#4d4d4d;
+  font-size:0.8em;
 }
 .views-responsive-grid .views-column .views-field-field-image-1  li{width:100%;}
 .views-responsive-grid  .field-item  {font-size:0.8em; line-height:normal}
